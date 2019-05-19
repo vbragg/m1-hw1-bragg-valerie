@@ -7,3 +7,58 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+
+/* FONTS
+
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Hind Madurai', sans-serif;
+
+*/
+
+nav ul {
+	list-style-type: none;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+nav ul li {
+	display: inline;
+  padding-right: 2%;
+
+}
+
+nav a:link, a:visited {
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: 'Rajdhani', sans-serif;
+  padding: 1%;
+}
+
+h3 {
+  text-align: center;
+}
+
+p, nav ul li {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+header, footer {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+body {
+  background-color: #32CD32;
+  height: 100%;
+}
+
+main {
+  height: 100vh; 
+}
+
+p {
+  padding: 0 0 1% 2%;
+}
